@@ -1,0 +1,35 @@
+# To ignore specific catalog directories : Will be remove once we have a better way to manage catalogs
+hive_metastore_catalog/
+nessie_catalog/
+
+# Ignore all log files
+*.log  
+
+# Ignore temporary files
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore build artifacts
+build/
+dist/  
+
+# Ignore Python cache files
+__pycache__/
+*.pyc 
+*.pyo
+*.pyd
+env/
+venv/
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.class
+target/
+*.jar
+*.war
+*.ear
+*.ipynb_checkpoints/
+iceberg-rest_catalog/warehouse
